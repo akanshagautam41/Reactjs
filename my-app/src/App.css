@@ -1,0 +1,411 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 100%;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+  width: 100%;
+
+}
+.banner img{
+  width: 100%;
+  height: inherit;
+}
+
+ .logo{
+  
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+ nav{
+  position: absolute;
+  top: 0;
+  width: 70%;
+  right: 0;
+  padding: 20px;
+  align-items: center;
+
+}
+nav a{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+font-size: 30px;
+}
+.text{
+  width: 60%;
+  text-align: center;
+  position: absolute;
+  bottom: 40%;
+  left: 20%;
+  font-size: 40px;
+  color: aliceblue;
+}
+.product{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.product .product-lft{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+margin-top: 12%;
+}
+
+.product .product-lft img{
+  width: 100%;
+  height: inherit;
+}
+.product .product-rgt{
+  width: 45%;
+ text-align: start;
+ margin-top: 8%;
+
+}
+
+.product-rgt  h1{
+  width: 90%;
+  font-size: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ padding: 10px;
+ font-weight: 400;
+}
+.product-rgt p{
+  width: 90%;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ padding: 10px;
+ color:gray;
+}
+button{
+  padding: 15px 25px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: 2px solid black;
+  text-transform: uppercase;
+}
+button:hover{
+  background-color: black;
+  color: wheat;
+}
+#btn{
+ 
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 30%;
+  left: 40%;
+  background-color: transparent;
+  color: white;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btn:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.servi{
+  width: 100%;
+  background-color: lightgrey;
+  margin-top: 10%;
+  
+  align-items: center;
+
+}
+.servi .text-res{
+  width: 50%;
+margin: 20px auto;
+
+}
+.servi .text-res h1{
+  width: 100%;
+  color: black;
+  padding-top: 7%;
+  font-size: 55px;
+  font-weight: 400;
+ 
+  
+}
+
+.servi .text-res p{
+  width: 100%;
+  font-size: 20px;
+  color: gray;
+  line-height: 30px;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu-icon{
+  width: 30%;
+  margin: 40px auto;
+ 
+}
+.menu-icon img{
+  width: 50%;
+  background: transparent;
+}
+.menu-icon h2{
+  color: orangered;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px;
+}
+.menu-icon p{
+  color: grey;
+  line-height: 30px;
+}
+.our-menu{
+  width: 100%;
+ margin: 10% auto;
+}
+.our-menu .menu-text{
+width: 50%;
+margin: 20px auto;
+
+}
+.our-menu .menu-text h1{
+font-size: 50px;
+font-weight: 500;
+font-family: sans-serif;
+
+}
+.our-menu .menu-text p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin-top: 20px;
+  line-height: 30px;
+  color: grey;
+  }
+  .box{
+    width: 90%;
+   
+   margin: 20px auto;
+  }
+  .box .box-up{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    align-self: center;
+   text-transform: uppercase;
+   
+  }
+  .box-up .breakfast a{
+    border: 2px solid grey;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .box-up .lunch a{
+    border: 2px solid grey;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .box-up .dinner a{
+    border: 2px solid grey;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .food{
+    width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+  }
+  .food .food-list{
+    width: 48%;
+    
+
+  }
+  .food-list .food-lt{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin: 30px auto;
+  }
+
+ .food-lt .list-lf{
+    width: 20%;
+   margin-top: 40px;
+  }
+   .list-lf img{
+    width: 100%;
+    height: inherit;
+    border-radius: 50%;
+  }
+ .food-lt .list-rgt{
+    width: 75%;
+    text-align: start;
+    margin-top: 50px;
+    }
+  .food-lt .list-rgt h4{
+    width: 100%;
+    font-size: 20px;
+  }
+  .food-lt .list-rgt p{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: grey;
+  }
+  .food-lt .list-rgt span{
+    font-size: 25px;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .fact
+  {
+    width: 100%;
+background-color: lightgrey;
+
+  }
+  .fact .fact-txt{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 7%;
+  }
+  .sticker{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .sticker .stick{
+    width: 30%;
+    margin: 60px;
+  }
+  .stick img{
+    width: 30%;
+    
+  }
+  .stick h1{
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight:500;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .stick p{
+    margin-top: 30px;
+    color: grey;
+    }
+
+    .news{
+      width: 100%;
+    
+      margin-top: 10%;
+    }
+    .news .event{
+      width: 50%;
+font-family: 'Times New Roman', Times, serif;
+margin: 20px auto;
+    }
+    .news .event h1{
+      font-size: 60px;
+      font-weight: 400;
+    }
+    .news .event p{
+      
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 20px;
+      line-height: 40px;
+      color: grey;
+    }
+
+    .image{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 20px auto;
+
+    }
+    .image .image1{
+      width: 25%;
+      
+      /* background-image: url('https://preview.colorlib.com/theme/steak/images/img_isotope_1_thumb.jpg.webp');
+      background-size: cover;
+      background-repeat: no-repeat; */
+    }
+    .image .image1 img{
+      width: 100%;
+      height: inherit;
+    }
+    .image .image2{
+      width: 70%;
+     
+      /* background-image: url('https://preview.colorlib.com/theme/steak/images/img_isotope_11_thumb.jpg.webp');
+      background-repeat: no-repeat;
+      background-size: cover; */
+    }
+    .image .image2 img{
+      width: 100%;
+      height: inherit;
+    }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
