@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background: olivedrab;
+  color: white;
+}
+
+header nav span{
+  padding-right: 20px;
+}
+
+.banner
+{
+  width: 100%;
+}
+
+.banner img
+{
+  width: 100%;
+}
+
+.product{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product .bx{
+  width: 32%;
+}
+
+.product .bx img{
+  width: 100%;
+  height: inherit;
+}
+.prop{
+  width: 100%;
+}
+.prop-nm{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prop-nm .prop-lf{
+  width: 48%;
+}
+.prop-nm .prop-lf img{
+  width: 100%;
+  height: inherit;
+}
+.prop-nm .prop-rg{
+  width: 48%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
